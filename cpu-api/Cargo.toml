@@ -1,0 +1,11 @@
+[package]
+name = "cpu-api"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "p1"
+path = "src/p1.rs"
+
+[dependencies]
+libc = "0.2"
