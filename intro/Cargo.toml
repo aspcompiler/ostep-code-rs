@@ -1,0 +1,23 @@
+[package]
+name = "intro"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "cpu"
+path = "src/cpu.rs"
+
+[[bin]]
+name = "mem"
+path = "src/mem.rs"
+
+[[bin]]
+name = "threads"
+path = "src/threads.rs"
+
+[[bin]]
+name = "io"
+path = "src/io.rs"
+
+[dependencies]
+libc = "0.2"
