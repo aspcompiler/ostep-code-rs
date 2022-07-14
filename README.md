@@ -3,8 +3,8 @@ This is a WIP implementation of [C code](https://github.com/remzi-arpacidusseau/
 Why do I want to port them to Rust?
 
 1. I use it as a project to practice Rust. I got the opportunity to experiment with a wide variety of APIs in an OS.
-1. It allows me to compare Rust to C so I concrete information on which one is better for a particular situation.
-1. I am contemplating of writing another OS in Rust.
+1. It allows me to compare Rust to C so I get concrete information on which one is better for a particular situation.
+1. This is a precursor for an experiment to write yet anther OS in Rust.
 
 Whenever we have a choice between unsafe `libc` or safe Rust `std`, we always go with the safe one as that is what make
 Rust better. A few exceptions are:
