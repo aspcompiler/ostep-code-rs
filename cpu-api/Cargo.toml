@@ -7,5 +7,17 @@ edition = "2021"
 name = "p1"
 path = "src/p1.rs"
 
+[[bin]]
+name = "p2"
+path = "src/p2.rs"
+
+[[bin]]
+name = "p3"
+path = "src/p3.rs"
+
+[[bin]]
+name = "p4"
+path = "src/p4.rs"
+
 [dependencies]
 libc = "0.2"
