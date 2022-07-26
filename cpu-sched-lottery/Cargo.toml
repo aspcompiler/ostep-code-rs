@@ -1,0 +1,11 @@
+[package]
+name = "cpu-sched-lottery"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "lottery"
+path = "src/lottery.rs"
+
+[dependencies]
+rand = "0.8"
